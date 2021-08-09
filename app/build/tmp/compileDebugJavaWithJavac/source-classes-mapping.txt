@@ -1,0 +1,24 @@
+org/tensorflow/codelabs/objectdetection/BuildConfig.java
+ org.tensorflow.codelabs.objectdetection.BuildConfig
+org/tensorflow/codelabs/objectdetection/databinding/CardLayoutBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.CardLayoutBinding
+org/tensorflow/codelabs/objectdetection/databinding/DialogViewBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.DialogViewBinding
+org/tensorflow/codelabs/objectdetection/databinding/AboutLayoutBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.AboutLayoutBinding
+org/tensorflow/codelabs/objectdetection/databinding/SplashLayoutBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.SplashLayoutBinding
+org/tensorflow/codelabs/objectdetection/databinding/LanguageLayoutBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.LanguageLayoutBinding
+org/tensorflow/codelabs/objectdetection/databinding/ProductCardBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ProductCardBinding
+org/tensorflow/codelabs/objectdetection/databinding/NavigationHeaderBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.NavigationHeaderBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityIngredientsBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityIngredientsBinding
+org/tensorflow/codelabs/objectdetection/databinding/ContentMainBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ContentMainBinding
+org/tensorflow/codelabs/objectdetection/databinding/ActivityMainBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ActivityMainBinding
+org/tensorflow/codelabs/objectdetection/databinding/ThemeSwitchBinding.java
+ org.tensorflow.codelabs.objectdetection.databinding.ThemeSwitchBinding

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\about_layout.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_internet_dialog.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\fragment_internet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_view.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_card.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\product_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ingredients.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\activity_ingredients.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_layout.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\card_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\theme_switch.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\theme_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navigation_header.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash_layout.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\splash_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\language_layout.xml",
+        "source": "C:\\Users\\ilyam\\AndroidStudioProjects\\finish\\Food_Counter_V0.5_splash\\app\\src\\main\\res\\layout\\language_layout.xml"
+    }
+]

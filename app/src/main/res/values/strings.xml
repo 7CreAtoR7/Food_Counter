@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Food Counter</string>
+    <string name="tv_take_photo">Take photo</string>
+    <string name="tv_description">Пока модель распознаёт ингредиенты, должен крутиться значок загрузки</string>
+    <string name="tv_placeholder">Food Counter V0.3</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="home">Home</string>
+    <string name="Language">Language</string>
+    <string name="Theme">NightMode</string>
+    <string name="About">About</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="Change_language">Change</string>
+    <string name="choose_language">Choose language</string>
+    <string name="ingredients_txt">Ingredients</string>
+    <string name="info_about_food">Nutritional value of 100g of product</string>
+    <string name="proteins_text">Protein:</string>
+    <string name="fats_text">Fat:</string>
+    <string name="carbs_txt">Carbs:</string>
+    <string name="kcal_txt">Kcal:</string>
+    <string name="authors_application">Application authors</string>
+    <string name="icons_author">Icons made by flaticon.com</string>
+    <string name="feedback">Contuct us</string>
+    <string name="by">Authors:</string>
+    <string name="ilya">Ilya</string>
+    <string name="michael">Michael</string>
+    <string name="connection_info">No Internet Connection</string>
+    <string name="ok">ок</string>
+</resources>

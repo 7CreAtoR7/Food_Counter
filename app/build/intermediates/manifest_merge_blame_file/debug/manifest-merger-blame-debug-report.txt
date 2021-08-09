@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.codelabs.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <queries>
+14-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:9:5-13:15
+15        <intent>
+15-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:10:9-12:18
+16            <action android:name="android.media.action.IMAGE_CAPTURE" />
+16-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:11:13-73
+16-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:11:21-70
+17        </intent>
+18    </queries>
+19
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <application
+24-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:15:5-58:19
+25        android:allowBackup="true"
+25-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:16:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.2] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@drawable/pizza_icon_app_"
+29-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:17:9-49
+30        android:label="@string/app_name"
+30-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:18:9-41
+31        android:roundIcon="@drawable/pizza_icon_app_"
+31-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:19:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:20:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.ObjectDetection" >
+34-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:21:9-53
+35        <activity
+35-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:22:9-31:20
+36            android:name="org.tensorflow.codelabs.objectdetection.SplashScreen"
+36-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:23:13-41
+37            android:screenOrientation="portrait"
+37-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:24:13-49
+38            android:theme="@style/SplashTheme" >
+38-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:25:13-47
+39            <intent-filter>
+39-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:27:17-69
+40-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:29:17-77
+42-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:32:9-35:52
+46            android:name="org.tensorflow.codelabs.objectdetection.Ingredients"
+46-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:33:13-40
+47            android:parentActivityName="org.tensorflow.codelabs.objectdetection.MainActivity"
+47-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:34:13-55
+48            android:screenOrientation="portrait" />
+48-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:35:13-49
+49        <activity
+49-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:36:9-39:84
+50            android:name="org.tensorflow.codelabs.objectdetection.MainActivity"
+50-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:37:13-41
+51            android:screenOrientation="portrait"
+51-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:38:13-49
+52            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+52-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:39:13-72
+53        <activity
+53-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:40:9-43:52
+54            android:name="org.tensorflow.codelabs.objectdetection.Language"
+54-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:41:13-37
+55            android:parentActivityName="org.tensorflow.codelabs.objectdetection.MainActivity"
+55-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:42:13-55
+56            android:screenOrientation="portrait" />
+56-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:43:13-49
+57        <activity
+57-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:44:9-47:52
+58            android:name="org.tensorflow.codelabs.objectdetection.About"
+58-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:45:13-34
+59            android:parentActivityName="org.tensorflow.codelabs.objectdetection.MainActivity"
+59-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:46:13-55
+60            android:screenOrientation="portrait" />
+60-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:47:13-49
+61
+62        <provider
+62-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:49:9-57:20
+63            android:name="androidx.core.content.FileProvider"
+63-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:50:13-62
+64            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+64-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:51:13-87
+65            android:exported="false"
+65-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:52:13-37
+66            android:grantUriPermissions="true" >
+66-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:53:13-47
+67            <meta-data
+67-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:54:13-56:54
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:55:17-67
+69                android:resource="@xml/file_paths" />
+69-->C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:56:17-51
+70        </provider>
+71    </application>
+72
+73</manifest>

@@ -1705,8 +1705,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable img_meal_one
-drawable img_meal_three
-drawable img_meal_two
 drawable japan
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1741,19 +1739,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable pizza_big
 drawable pizza_icon
 drawable pizza_icon_app_
-drawable pizza_icon_final
-drawable pizza_nav_final
 drawable pizza_splash
 drawable pizza_splash1
-drawable pizza_splash_final
-drawable puma_cat_final
 drawable russia_flag_
 drawable side_nav_bar
 drawable test_custom_background
-drawable thunder
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable united_states_flag_
@@ -2495,8 +2487,6 @@ string path_password_strike_through
 string proteins_text
 string search_menu_title
 string status_bar_notification_info_overflow
-string tv_description
-string tv_placeholder
 string tv_take_photo
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

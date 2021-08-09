@@ -195,14 +195,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
     }
 
     private fun debugPrint(results: List<Detection>) { // для вывода в логе об объектах
-        for ((i, obj) in results.withIndex()) {
-            val box = obj.boundingBox
-
-            Log.d(TAG, "Detected object: $i ")
-            Log.d(TAG, "  boundingBox: (${box.left}, ${box.top}) - (${box.right},${box.bottom})")
-
-            for ((j, category) in obj.categories.withIndex()) {
-                Log.d(TAG, "    Label $j: ${category.label}")
+        for (obj in results) {
+            for (category in obj.categories) {
                 if (category.label.toString() !in ingList && category.label.toString() !in detectObjects) {
                     ingList.add(category.label.toString())
                     Log.d(TAG, ingList.toString())
@@ -215,19 +209,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
 
 
     private fun setViewAndDetect(bitmap: Bitmap) {
-        // Display capture image
-        //inputImageView.setImageBitmap(bitmap)
         lifecycleScope.launch(Dispatchers.Default) { runObjectDetection(bitmap) }
     }
 
 
     private fun getCapturedImage(): Bitmap {
-        // Get the dimensions of the View
         val targetW: Int = inputImageView.width
         val targetH: Int = inputImageView.height
 
         val bmOptions = BitmapFactory.Options().apply {
-            // Get the dimensions of the bitmap
             inJustDecodeBounds = true
 
             BitmapFactory.decodeFile(currentPhotoPath, this)
@@ -235,10 +225,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             val photoW: Int = outWidth
             val photoH: Int = outHeight
 
-            // Determine how much to scale down the image
             val scaleFactor: Int = max(1, min(photoW / targetW, photoH / targetH))
 
-            // Decode the image file into a Bitmap sized to fill the View
             inJustDecodeBounds = false
             inSampleSize = scaleFactor
             inMutable = true
@@ -284,11 +272,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
         val timeStamp: String = SimpleDateFormat("yyyyMMdd_HHmmss").format(Date())
         val storageDir: File? = getExternalFilesDir(Environment.DIRECTORY_PICTURES)
         return File.createTempFile(
-            "JPEG_${timeStamp}_", /* prefix */
-            ".jpg", /* suffix */
-            storageDir /* directory */
+            "JPEG_${timeStamp}_",
+            ".jpg",
+            storageDir
         ).apply {
-            // Save a file: path for use with ACTION_VIEW intents
             currentPhotoPath = absolutePath
         }
     }
@@ -296,14 +283,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
     private fun dispatchTakePictureIntent() { // открытие камеры
         Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
             takePictureIntent.resolveActivity(packageManager)?.also {
-                // Create the File where the photo should go
                 val photoFile: File? = try {
                     createImageFile()
                 } catch (e: IOException) {
                     Log.e(TAG, e.message.toString())
                     null
                 }
-                // Continue only if the File was successfully created
+
                 photoFile?.also {
                     val photoURI: Uri = FileProvider.getUriForFile(
                         this,
@@ -316,7 +302,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             }
         }
     }
-
 
     private fun drawDetectionResult(
         bitmap: Bitmap,
@@ -347,7 +332,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             pen.getTextBounds(it.text, 0, it.text.length, tagSize)
             val fontSize: Float = pen.textSize * box.width() / tagSize.width()
 
-            // adjust the font size so texts are inside the bounding box
             if (fontSize < pen.textSize) pen.textSize = fontSize
 
             var margin = (box.width() - tagSize.width()) / 2.0F

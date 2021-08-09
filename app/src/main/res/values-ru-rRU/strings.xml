@@ -2,8 +2,6 @@
 <resources>
     <string name="app_name">Food Counter</string>
     <string name="tv_take_photo">Сделать фото</string>
-    <string name="tv_description">Пока модель распознаёт ингредиенты, должен крутиться значок загрузки</string>
-    <string name="tv_placeholder">Food Counter V0.3</string>
     <string name="nav_header_desc">Бар навигации</string>
     <string name="home">Старт</string>
     <string name="Language">Язык</string>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="About">アプリについて</string>
+    <string name="Change_language">変化する</string>
+    <string name="Language">言語</string>
+    <string name="Theme">夜のテーマ</string>
+    <string name="app_name">Food Counter</string>
+    <string name="authors_application">アプリケーションの作成者</string>
+    <string name="by">著者:</string>
+    <string name="carbs_txt">炭水化物:</string>
+    <string name="choose_language">言語を選択する</string>
+    <string name="close">選ぶ</string>
+    <string name="connection_info">インターネットに接続できません</string>
+    <string name="fats_text">太い:</string>
+    <string name="feedback">お問い合わせ</string>
+    <string name="home">家</string>
+    <string name="icons_author">flaticon.comによって作成されたアイコン</string>
+    <string name="ilya">Ilya</string>
+    <string name="info_about_food">製品100グラムの栄養価</string>
+    <string name="ingredients_txt">材料</string>
+    <string name="kcal_txt">カロリー:</string>
+    <string name="michael">Michael</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="ok">ок</string>
+    <string name="open">開いた</string>
+    <string name="proteins_text">タンパク質:</string>
+    <string name="tv_take_photo">写真を撮る</string>
+</resources>

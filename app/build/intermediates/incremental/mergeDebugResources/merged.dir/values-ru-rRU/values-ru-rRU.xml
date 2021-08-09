@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="About">О приложении</string>
+    <string name="Change_language">Изменить</string>
+    <string name="Language">Язык</string>
+    <string name="Theme">Ночной режим</string>
+    <string name="app_name">Food Counter</string>
+    <string name="authors_application">Авторы приложения</string>
+    <string name="by">Авторы:</string>
+    <string name="carbs_txt">Угл:</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="close">close</string>
+    <string name="connection_info">Проверьте интернет-соединение</string>
+    <string name="fats_text">Жир:</string>
+    <string name="feedback">Свяжитесь с нами</string>
+    <string name="home">Старт</string>
+    <string name="icons_author">Картинки сделаны flaticon.com</string>
+    <string name="ilya">Ilya</string>
+    <string name="info_about_food">Пищевая ценность 100г продукта</string>
+    <string name="ingredients_txt"> Ингредиенты</string>
+    <string name="kcal_txt">Ккал:</string>
+    <string name="michael">Michael</string>
+    <string name="nav_header_desc">Бар навигации</string>
+    <string name="ok">ок</string>
+    <string name="open">open</string>
+    <string name="proteins_text">Белок:</string>
+    <string name="tv_take_photo">Сделать фото</string>
+</resources>

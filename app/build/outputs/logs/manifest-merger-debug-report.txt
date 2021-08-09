@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\c6b7a860ec45bcdc07ac62744dd97bf6\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\94b7662e8555ac0022b093c70693d344\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -56,43 +56,43 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ilyam\.
 MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\a1fbbdfadacd5f635317676937729482\jetified-tensorflow-lite-task-base-0.2.0\AndroidManifest.xml:2:1-6:12
 MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\5feee9204a2734cf8da8f1ac9af1e8ff\jetified-tensorflow-lite-support-0.2.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:4:5-54
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:4:5-54
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:7:22-76
 queries
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:9:5-13:15
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:9:5-13:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:10:9-12:18
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:10:9-12:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:11:13-73
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:11:13-73
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:11:21-70
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:11:21-70
 application
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:15:5-58:19
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:15:5-58:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\10a1fd9a43e78ddadba51799567f760e\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\ab75dfbbd723f28d9ab1c4d69d43602e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -112,87 +112,87 @@ MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\ilyam\.gradle\caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:17:9-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:17:9-49
 	android:allowBackup
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:21:9-53
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:21:9-53
 activity#org.tensorflow.codelabs.objectdetection.SplashScreen
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:22:9-31:20
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:22:9-31:20
 	android:screenOrientation
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:24:13-49
 	android:theme
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:25:13-47
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:25:13-47
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:29:27-74
 activity#org.tensorflow.codelabs.objectdetection.Ingredients
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:32:9-35:52
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:32:9-35:52
 	android:screenOrientation
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:35:13-49
 	android:parentActivityName
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:34:13-55
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:34:13-55
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:33:13-40
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:33:13-40
 activity#org.tensorflow.codelabs.objectdetection.MainActivity
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:36:9-39:84
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:36:9-39:84
 	android:screenOrientation
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:38:13-49
 	android:theme
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:39:13-72
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:39:13-72
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:37:13-41
 activity#org.tensorflow.codelabs.objectdetection.Language
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:40:9-43:52
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:40:9-43:52
 	android:screenOrientation
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:43:13-49
 	android:parentActivityName
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:42:13-55
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:42:13-55
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:41:13-37
 activity#org.tensorflow.codelabs.objectdetection.About
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:44:9-47:52
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:44:9-47:52
 	android:screenOrientation
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:47:13-49
 	android:parentActivityName
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:46:13-55
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:46:13-55
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:45:13-34
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:45:13-34
 provider#androidx.core.content.FileProvider
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:49:9-57:20
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:49:9-57:20
 	android:grantUriPermissions
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:53:13-47
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:53:13-47
 	android:authorities
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:51:13-87
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:51:13-87
 	android:exported
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:50:13-62
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:50:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:54:13-56:54
+ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:54:13-56:54
 	android:resource
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:56:17-51
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:56:17-51
 	android:name
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:55:17-67
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:55:17-67
 uses-sdk
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\07202aab04a31327d881215b459a8efb\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\c6b7a860ec45bcdc07ac62744dd97bf6\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -295,20 +295,20 @@ MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\ilyam\.gradl
 MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\5feee9204a2734cf8da8f1ac9af1e8ff\jetified-tensorflow-lite-support-0.2.0\AndroidManifest.xml:4:3-71
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\ilyam\.gradle\caches\transforms-2\files-2.1\1f5283009bef87e8818924f05705a471\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V0.5_splash\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ilyam\AndroidStudioProjects\finish\Food_Counter_V1.0\app\src\main\AndroidManifest.xml:2:1-60:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE

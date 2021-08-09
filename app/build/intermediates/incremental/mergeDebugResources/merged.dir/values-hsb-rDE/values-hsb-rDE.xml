@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="About">Über die App</string>
+    <string name="Change_language">Veränderung</string>
+    <string name="Language">Sprache</string>
+    <string name="Theme">Nachtmodus</string>
+    <string name="app_name">Food Counter</string>
+    <string name="authors_application">Anwendungsautoren</string>
+    <string name="by">Autoren:</string>
+    <string name="carbs_txt">Kohlenhy:</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string name="close">schließen</string>
+    <string name="connection_info">Keine Internetverbindung</string>
+    <string name="fats_text">Fett:</string>
+    <string name="feedback">Kontaktiere uns</string>
+    <string name="home">Haus</string>
+    <string name="icons_author">Icons erstellt von flaticon.com</string>
+    <string name="ilya">Ilya</string>
+    <string name="info_about_food">Nährwert von 100G Produkt</string>
+    <string name="ingredients_txt">Zutaten</string>
+    <string name="kcal_txt">Kalorien:</string>
+    <string name="michael">Michael</string>
+    <string name="nav_header_desc">Navigationskopf</string>
+    <string name="ok">ок</string>
+    <string name="open">offen</string>
+    <string name="proteins_text">Eiweiß:</string>
+    <string name="tv_take_photo">Foto machen</string>
+</resources>

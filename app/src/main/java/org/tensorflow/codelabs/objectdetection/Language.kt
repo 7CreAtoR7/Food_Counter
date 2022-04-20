@@ -9,7 +9,6 @@ import kotlinx.android.synthetic.main.language_layout.*
 
 
 class Language : AppCompatActivity() {
-
     private lateinit var myPreference: MyPreference
     lateinit var context: Context
     private var layoutManager: RecyclerView.LayoutManager? = null

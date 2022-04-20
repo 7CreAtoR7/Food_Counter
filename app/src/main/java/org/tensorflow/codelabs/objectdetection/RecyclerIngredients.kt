@@ -54,12 +54,7 @@ class RecyclerIngredients : RecyclerView.Adapter<RecyclerIngredients.ViewHolder>
 
         // словарь продуктов, где их значения - словари с языками
         val productsInLanguages = mapOf(
-            "Tomato" to mapOf(
-                "ru" to "Помидор",
-                "en" to "Tomato",
-                "hsb" to "Tomate",
-                "ja" to "トマト"
-            ),
+            "Tomato" to mapOf("ru" to "Помидор", "en" to "Tomato", "hsb" to "Tomate", "ja" to "トマト"),
             "Cheese" to mapOf("ru" to "Сыр", "en" to "Cheese", "hsb" to "Käse", "ja" to "チーズ")
         )
 
@@ -88,7 +83,6 @@ class RecyclerIngredients : RecyclerView.Adapter<RecyclerIngredients.ViewHolder>
         try {
             Picasso.with(holder.itemImage.context).load(images[position]).resize(600, 600)
                 .into(holder.itemImage)
-
         } catch (e: Exception) {
             holder.itemImage.setImageResource(imagesNotInternet[position])
         }

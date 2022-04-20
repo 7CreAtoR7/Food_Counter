@@ -1,6 +1,6 @@
 package org.tensorflow.codelabs.objectdetection
 
-import android.app.AlertDialog
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
@@ -9,59 +9,65 @@ import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.dialog_view.view.*
 import kotlinx.android.synthetic.main.splash_layout.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import org.tensorflow.codelabs.objectdetection.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.net.SocketTimeoutException
-import java.util.*
 
 class SplashScreen : AppCompatActivity() {
 
     private lateinit var image: ImageView
     lateinit var dbHelper: DbHelper
     private var isInternetOn = false
+    private var countLaunchApp: Int = 0
 
-
+    @SuppressLint("ServiceCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash_layout)
+
+        val foodAnimation = AnimationUtils.loadAnimation(this, R.anim.food_animation)
+        val counterAnimation = AnimationUtils.loadAnimation(this, R.anim.counter_animation)
+
+        food_txt_intro.startAnimation(foodAnimation)
+        counter_txt_intro.startAnimation(counterAnimation)
+
         supportActionBar!!.hide()
 
         dbHelper = DbHelper(this)
         image = findViewById(R.id.pizzaId)
-        var countLaunchApp = loadData()
-
 
         CoroutineScope(Dispatchers.IO).launch {
-            animatePizzaAndLogotype() // с помощью корутины отдельно анимируем splash
+            animatePizza() // с помощью корутины отдельно анимируем пиццу
         }
 
-        countLaunchApp += 1
-        Log.d("Launch number", "Application is started in $countLaunchApp time")
+        countLaunchApp = loadData()
 
-        // получили кол-во раз запусков приложения на устройстве
-        // если запуск впервые, то получаем данные с сервера и загружаем в sqlite
+        // получили кол-во раз запуска приложения. если равен 1, то
+        // загружаем данные из сервера в бд sqlite
         if (countLaunchApp == 1) {
-            // Проверка интернет-соединения
+            println("ЗАГРУЖАЕМ ДАННЫЕ С СЕРВЕРА, КОЛ-ВО ЗАПУЩЕННЫХ РАЗ = $countLaunchApp")
+
+            // Проверка интернет соединения
             val connectionManager =
                 getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
             val networkInfo = connectionManager.activeNetworkInfo
             if (networkInfo != null && networkInfo.isConnected) {
                 isInternetOn = true
-                Log.d("Network status", "Network Available")
+                println("Network Available")
                 lifecycleScope.launch(Dispatchers.Default) { getServerDataInDB() }
             } else {
-                countLaunchApp -= 1
+                println("Network NOT Available")
                 val view = View.inflate(this, R.layout.dialog_view, null)
 
                 val builder = AlertDialog.Builder(this)
@@ -71,27 +77,19 @@ class SplashScreen : AppCompatActivity() {
                 dialog.show()
                 dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
                 dialog.setCancelable(false)
-                val imageView: ImageView = view.no_connection
-                Glide.with(this).load(R.drawable.no_connection).into(imageView)
-
-                view.bt_ok.setOnClickListener {
-                    dialog.dismiss()
-                    val intent = Intent(this, SplashScreen::class.java)
-                    startActivity(intent)
-                }
-                Log.d("Network status", "Network Not Available")
             }
-
-        } else {
+        }
+        if (countLaunchApp >= 2) {
+            countLaunchApp += 1
+            println("ЗАПУСК НЕ ПЕРВЫЙ, КОЛ-ВО ЗАПУЩЕННЫХ РАЗ = $countLaunchApp")
             intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
-        saveData(countLaunchApp) // сохраняем новое кол-во запусков приложения
+        saveData(countLaunchApp)
     }
 
     private fun getServerDataInDB() {
-        // берём данные с сервера
         val retrofit = Retrofit.Builder()
             .baseUrl("https://peaceful-garden-62887.herokuapp.com/")
             .addConverterFactory(GsonConverterFactory.create())
@@ -100,7 +98,6 @@ class SplashScreen : AppCompatActivity() {
         val service: ProductController = retrofit.create(ProductController::class.java)
 
         val call: Call<MutableList<ServerFood>> = service.get()
-
         call.enqueue(object : Callback<MutableList<ServerFood>> {
             override fun onResponse(
                 call: Call<MutableList<ServerFood>>, response: Response<MutableList<ServerFood>>
@@ -120,9 +117,11 @@ class SplashScreen : AppCompatActivity() {
                                     item.kcal.toString()
                                 )
                             } catch (e: Exception) {
-                                Log.d("SQLite exception", "Adding duplicates in DB")
+                                Log.d("SQLite exception", "Adding dublicates in DB")
                             }
                         }
+                        countLaunchApp += 1
+                        saveData(countLaunchApp)
                         startActivity(Intent(this@SplashScreen, MainActivity::class.java))
                     }
                 } else Log.d("Server Response", "Response is not successful")
@@ -137,7 +136,6 @@ class SplashScreen : AppCompatActivity() {
                     )
                 } else Log.d("Server Response", "Server error: " + t.message)
             }
-
         })
     }
 
@@ -153,19 +151,13 @@ class SplashScreen : AppCompatActivity() {
 
     private fun loadData(): Int { // получение кол-ва запука приложения
         val sharedPreferences = getSharedPreferences("LaunchesCount", Context.MODE_PRIVATE)
-        return sharedPreferences.getInt("COUNT_KEY", 0)
+        return sharedPreferences.getInt("COUNT_KEY", 1)
+
     }
 
-    private fun animatePizzaAndLogotype() { // анимация пиццы и надписи food counter
+    private fun animatePizza() { // анимация пиццы
         val rotate = AnimationUtils.loadAnimation(this, R.anim.rotate_animation)
-
-        val foodAnimation = AnimationUtils.loadAnimation(this, R.anim.food_animation)
-        val counterAnimation = AnimationUtils.loadAnimation(this, R.anim.counter_animation)
-
-        food_txt_intro.startAnimation(foodAnimation)
-        counter_txt_intro.startAnimation(counterAnimation)
-
         image.animation = rotate
-    }
 
+    }
 }

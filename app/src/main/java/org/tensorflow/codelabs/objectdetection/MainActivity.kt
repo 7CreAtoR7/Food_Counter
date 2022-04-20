@@ -65,14 +65,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
 
-
         captureImageFab = findViewById(R.id.selectPhoto)
         inputImageView = findViewById(R.id.imageView)
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
 
-
         captureImageFab.setOnClickListener(this)
-
 
         //Для загрузки темы при старте
         if (loadState()) {
@@ -127,7 +124,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             }
         }
 
-
         if (item.itemId == R.id.nav_about) {
             val intent = Intent(this, About::class.java)
             startActivity(intent)
@@ -141,7 +137,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             setViewAndDetect(getCapturedImage())
         }
     }
-
 
     override fun onClick(v: View?) {
         when (v?.id) {
@@ -180,7 +175,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             DetectionResult(it.boundingBox, text)
         }
         drawDetectionResult(bitmap, resultToDisplay)
-
 
         // после анализа фото открывается новая активность
         try {
@@ -224,7 +218,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
 
             val photoW: Int = outWidth
             val photoH: Int = outHeight
-
             val scaleFactor: Int = max(1, min(photoW / targetW, photoH / targetH))
 
             inJustDecodeBounds = false
@@ -319,7 +312,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
             pen.style = Paint.Style.STROKE
             val box = it.boundingBox
             canvas.drawRect(box, pen)
-
 
             val tagSize = Rect(0, 0, 0, 0)
 
